@@ -6,7 +6,7 @@ dotenv.config();
 
 const port = process.env.PORT || 8080;
 
-const filerouter = require("./routes/fileRoute"); // Replace with the correct path
+const filerouter = require("./routes/fileRoute");
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
