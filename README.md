@@ -1,19 +1,14 @@
 # AWS S3 File Upload and Signed URL Generator
 
-This project is a Node.js application that enables file uploads to Amazon S3 and generates pre-signed URLs for the uploaded files. It's designed to handle various file formats such as images, PDFs, and documents. This README provides instructions on setting up and using the application.
+This project is a Node.js application (with express) that enables file uploads to Amazon S3 and generates pre-signed URLs for the uploaded files. It's designed to handle various file formats such as images, PDFs, and documents. I used the Multer library to handle file uploads and the MulterS3 library for S3 uploads to AWS. This README provides instructions on setting up and using the application.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Features](#features)
-
-## Getting Started
-
-To get started with this project, follow the instructions below.
 
 ## Prerequisites
 
