@@ -20,16 +20,14 @@ const storage = multerS3({
 
 const upload = multer({
   storage: storage,
-  fileFilter: (req, file, cb) => {
-    let fileTypes = /jpg|jpeg|png|pdf|doc|docx|zip/;
-    let mimeTypes = fileTypes.test(file.mimetype);
-
-    if(!mimeTypes){
-      cb("An error has occured, please use the correct file format.")    
-    }
-
-    cb();
-  },
 });
 
-module.exports = upload;
+const getSignedURL = (fileName) => {
+  return s3.getSignedUrl("getObject", {
+    Bucket: process.env.FILE_BUCKET_NAME,
+    Key: fileName,
+    Expires: 300, // Expires in 5 min
+  });
+};
+
+module.exports = { upload, getSignedURL };
