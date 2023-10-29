@@ -10,9 +10,6 @@ This project is a Node.js application that enables file uploads to Amazon S3 and
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Getting Started
 
