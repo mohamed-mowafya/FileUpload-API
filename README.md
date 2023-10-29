@@ -56,6 +56,6 @@ You can configure the application by creating a .env file (based off the example
 
 ## Features
 
-File upload to AWS S3 bucket.
-Generation of pre-signed URLs for uploaded files.
-Customizable file type filtering to restrict allowed file formats.
+1. File upload to AWS S3 bucket.
+2. Generation of pre-signed URLs for uploaded files.
+3. Customizable file type filtering to restrict allowed file formats.
