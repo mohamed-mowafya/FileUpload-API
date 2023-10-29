@@ -1,5 +1,5 @@
 {
-  "name": "mobile2pc-api",
+  "name": "fileupload-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohamed-mowafya/Mobile2PC-API.git"
+    "url": "git+https://github.com/mohamed-mowafya/FileUpload-API.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mohamed-mowafya/Mobile2PC-API/issues"
+    "url": "https://github.com/mohamed-mowafya/FileUpload-API/issues"
   },
-  "homepage": "https://github.com/mohamed-mowafya/Mobile2PC-API#readme",
+  "homepage": "https://github.com/mohamed-mowafya/FileUpload-API#readme",
   "dependencies": {
     "aws-sdk": "^2.895.0",
     "body-parser": "^1.20.2",
